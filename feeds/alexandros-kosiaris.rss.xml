@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAB: Just Another Blog</title><link>/</link><description></description><atom:link href="/feeds/alexandros-kosiaris.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 22 Oct 2014 14:39:08 +0000</lastBuildDate><item><title>Servermon code coverage &gt; 80%</title><link>/servermon-code-coverage-80.html</link><description>&lt;p&gt;Just wanted to shared with everybody that servermon's python code
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAB: Just Another Blog</title><link>http://blog.uname.gr/</link><description></description><atom:link href="http://blog.uname.gr/feeds/alexandros-kosiaris.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 22 Oct 2014 14:39:08 +0000</lastBuildDate><item><title>Servermon code coverage &gt; 80%</title><link>http://blog.uname.gr/servermon-code-coverage-80.html</link><description>&lt;p&gt;Just wanted to shared with everybody that servermon's python code
 coverage is over 80% as of a few days ago. What is code coverage you
 might ask ? It is a metric about how much of your code actually get's
 executed. Wikipedia article &lt;a
 href="https://en.wikipedia.org/wiki/Code_coverage"&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Do note however that 100% code coverage does not mean 100%
-code paths being executed but still, it is nice to have &amp;gt; 80%.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandros Kosiaris</dc:creator><pubDate>Wed, 22 Oct 2014 14:39:08 +0000</pubDate><guid>tag:,2014-10-22:servermon-code-coverage-80.html</guid></item></channel></rss>
+code paths being executed but still, it is nice to have &amp;gt; 80%.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandros Kosiaris</dc:creator><pubDate>Wed, 22 Oct 2014 14:39:08 +0000</pubDate><guid>tag:blog.uname.gr,2014-10-22:servermon-code-coverage-80.html</guid></item></channel></rss>
