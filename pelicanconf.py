@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Alexandros Kosiaris'
 SITENAME = u'JAB: Just Another Blog'
-SITEURL = ''
+SITEURL = 'http://blog.uname.gr'
 
 PATH = 'content'
 
@@ -28,6 +28,9 @@ SOCIAL = (
         )
 
 DEFAULT_PAGINATION = 10
+
+STATIC_PATHS = ['extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
