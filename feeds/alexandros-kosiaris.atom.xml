@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>JAB: Just Another Blog</title><link href="/" rel="alternate"></link><link href="/feeds/alexandros-kosiaris.atom.xml" rel="self"></link><id>/</id><updated>2014-10-22T14:39:08+00:00</updated><entry><title>Servermon code coverage &gt; 80%</title><link href="/servermon-code-coverage-80.html" rel="alternate"></link><updated>2014-10-22T14:39:08+00:00</updated><author><name>Alexandros Kosiaris</name></author><id>tag:,2014-10-22:servermon-code-coverage-80.html</id><summary type="html">&lt;p&gt;Just wanted to shared with everybody that servermon's python code
+coverage is over 80% as of a few days ago. What is code coverage you
+might ask ? It is a metric about how much of your code actually get's
+executed. Wikipedia article &lt;a
+href="https://en.wikipedia.org/wiki/Code_coverage"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Do note however that 100% code coverage does not mean 100%
+code paths being executed but still, it is nice to have &amp;gt; 80%.&lt;/p&gt;</summary></entry></feed>
