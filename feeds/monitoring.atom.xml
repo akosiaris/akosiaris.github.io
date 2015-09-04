@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>JAB: Just Another Blog</title><link href="http://blog.uname.gr/" rel="alternate"></link><link href="http://blog.uname.gr/feeds/monitoring.atom.xml" rel="self"></link><id>http://blog.uname.gr/</id><updated>2015-09-04T14:39:08+00:00</updated><entry><title>collectd_transmission</title><link href="http://blog.uname.gr/collectd_transmission.html" rel="alternate"></link><updated>2015-09-04T14:39:08+00:00</updated><author><name>Alexandros Kosiaris</name></author><id>tag:blog.uname.gr,2015-09-04:collectd_transmission.html</id><summary type="html">&lt;p&gt;collectd_transmission just got version 2.3 released today. This is a small
+project I 've create to integrate the collectd monitoring server and
+transmission. It allows to monitor the state of a transmission server and get
+some interesting info on the usage of it. I am quite exhited about it today
+since I 've managed to make it reach 100% code coverage. It is a smallish
+project, around 40 lines of actual code, close to 130 including spaces and
+documentation but still 100% code coverage was not easy to achieve, mostly due
+to the fact that it imports collectd, a on the fly created by collectd Python
+module and injected into the namespace. Which meant mock. If you have never
+heard about mocking in python, well it's time you do. If you do write any kind
+of tests that is. It allows you to mock out all the difficult to reproduce
+modules and functionalities allowing you to unit test your own code. That means
+you won't escape bugs being introduced by libraries you use, but at
+least you will be able to rule out your own code faster.&lt;/p&gt;
+&lt;p&gt;Link for the coverage report at:
+&lt;a
+href="https://coveralls.io/github/akosiaris/collectd_transmission"&gt;https://coveralls.io/github/akosiaris/collectd_transmission&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested in the project itself:&lt;/p&gt;
+&lt;p&gt;&lt;a
+href="https://pypi.python.org/pypi/collectd_transmission/"&gt;collectd_transmission
+on PyPi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yes it's on PyPI. Developed on github with readthedocs.org,
+coveralls.io and travis-ci integrations.&lt;/p&gt;
+&lt;p&gt;Now getting a useful frontend to collectd might be a tad difficult. If you got
+collectd pushing to a graphite instance, probably Grafana[1] is the best. If you
+used RRDs and it's a single server, I use jarmon[2] and it's fine albeit slow.
+That's mostly due to downloading all RRDs on every update. And it is just for
+one server, its design does not allow more than one for sure. So unless it's
+your toy server you are talking about, it's not for you.
+Facette[3] seems to be a better alternative but it is still young.&lt;/p&gt;
+&lt;p&gt;[1] &lt;a href="http://grafana.org/"&gt;http://grafana.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href="https://launchpad.net/jarmon"&gt;https://launchpad.net/jarmon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] &lt;a href="https://github.com/facette/facette"&gt;https://github.com/facette/facette&lt;/a&gt;&lt;/p&gt;</summary><category term="collectd"></category><category term="monitoring"></category><category term="transmission"></category></entry></feed>
