@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="puppet" />
+        <meta name="author" content="Alexandros Kosiaris" />
+        <meta name="keywords" content="servermon,monitoring,puppet,django" />
+        <meta name="description" content="Hello everyone, happy to shared with you that I &#39;ve managed to get servermon&#39;s code coverage finally above 95%. 96.37 to be exact. This means only ~100 relevant LOC are not being actively tested right now. I am gonna work a bit more on this but I wanted ..." />
 
-    <title>puppet - JAB: Just Another Blog</title>
+    <title>Servermon code coverage > 95% - JAB: Just Another Blog</title>
 
     <link rel="stylesheet" href="http://blog.uname.gr/theme/css/bootstrap.min.css" type="text/css"/>
     <link href="http://blog.uname.gr/theme/css/font-awesome.min.css" rel="stylesheet">
@@ -133,7 +135,7 @@
                             <span class="badge pull-right categorybadge">1</span>
                         </a>
                     </li>
-                    <li >
+                    <li class="active">
                         <a href="http://blog.uname.gr/category/servermon.html">
                             <i class="fa fa-folder-open padding-small"></i>
                             servermon
@@ -155,35 +157,58 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-<div class="row">
-    <div class="col-lg-9">
-        <header class="page-header">
-            <h1>Articles featuring puppet</h1>
-        </header>
+<section id="content">
+    <article>
+        <div class="row">
+            <div class="col-lg-9">
+                <header class="page-header">
+                    <h1>
+                        <a href="http://blog.uname.gr/servermon-code-coverage-95.html"
+                           rel="bookmark"
+                           title="Permalink to Servermon code coverage > 95%">
+                            Servermon code coverage > 95%
+                        </a>
+                        <small>
+<div class="post-info">
+    <div class="publish-info-block">
+        <small>
+            <span class="published">
+                <i class="fa fa-calendar padding-small"></i><time datetime="2015-09-11T14:39:08"> Fri 11 September 2015</time>
+            </span>
+            <span class="category">
+                <i class="fa fa-folder-open padding-small"></i><a href="http://blog.uname.gr/category/servermon.html">servermon</a>
+            </span>
+            <span class="tags">
+                <i class="fa fa-tags padding-small"></i>
+                <a href="http://blog.uname.gr/tag/servermon.html">servermon</a> /                 <a href="http://blog.uname.gr/tag/monitoring.html">monitoring</a> /                 <a href="http://blog.uname.gr/tag/puppet.html">puppet</a> /                 <a href="http://blog.uname.gr/tag/django.html">django</a>            </span>
+        </small>
     </div>
-</div>
-<div class="row">
-    <div class="col-lg-9">
-            <article>
-                <h4>
-                    <time datetime="2015-09-11T14:39:08"> Fri 11 September 2015</time>
-                    <a href="http://blog.uname.gr/servermon-code-coverage-95.html">Servermon code coverage > 95%</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2015-07-03T14:39:08"> Fri 03 July 2015</time>
-                    <a href="http://blog.uname.gr/servermon-hwdoc-storage-support.html">Servermon hwdoc storage support</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2014-10-22T14:39:08"> Wed 22 October 2014</time>
-                    <a href="http://blog.uname.gr/servermon-code-coverage-80.html">Servermon code coverage > 80%</a>
-                </h4>
-            </article>
-    </div>
-</div>
+</div><!-- /.post-info -->                        </small>
+                    </h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="entry-content">
+                    <p>Hello everyone, happy to shared with you that I 've managed to get servermon's
+code coverage finally above 95%. 96.37 to be exact. This means only ~100
+relevant LOC are not being actively tested right now. I am gonna work a bit more
+on this but I wanted to share this with anyone who's interested. In case you
+want to see it in action, we 've now got coveralls.io integration, so here you
+are:</p>
+<p><a
+href="https://coveralls.io/github/servermon/servermon">https://coveralls.io/github/servermon/servermon</a></p>
+<p>That is an increase from last year's 80%.</p>
+<p><a href="http://blog.uname.gr/servermon-code-coverage-80.html">80% code coverage</a></p>
+                </div>
+                <footer class="text-right">
+                    <p>- Alexandros Kosiaris</p>
+                </footer>
+            </div>
+        </div>
+    </article>
+</section>
 <footer>
     <hr>
     <div class="row">
@@ -205,24 +230,6 @@
     <script src="http://blog.uname.gr/theme/js/bootstrap.min.js"></script>
     <!-- twitchy Script -->
     <script src="http://blog.uname.gr/theme/js/pelican_twitchy.min.js"></script>
-<script>
-    function FadeInOnScroll(ObjectList){
-        ObjectList.each(function(i) {
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-            if( bottom_of_window > bottom_of_object ){
-                $(this).fadeTo(750,1);
-            }
-        });
-    }
-
-    articles = $("article").fadeTo(0, 0.05);
-    FadeInOnScroll(articles)
-
-    $(window).scroll(function() {
-        FadeInOnScroll(articles)
-    });
-</script>
 </body>
 </html>

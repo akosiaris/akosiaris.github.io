@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAB: Just Another Blog</title><link>http://blog.uname.gr/</link><description></description><atom:link href="http://blog.uname.gr/feeds/alexandros-kosiaris.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 04 Sep 2015 14:39:08 +0000</lastBuildDate><item><title>collectd_transmission</title><link>http://blog.uname.gr/collectd_transmission.html</link><description>&lt;p&gt;collectd_transmission just got version 2.3 released today. This is a small
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAB: Just Another Blog</title><link>http://blog.uname.gr/</link><description></description><atom:link href="http://blog.uname.gr/feeds/alexandros-kosiaris.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 11 Sep 2015 14:39:08 +0000</lastBuildDate><item><title>Servermon code coverage &gt; 95%</title><link>http://blog.uname.gr/servermon-code-coverage-95.html</link><description>&lt;p&gt;Hello everyone, happy to shared with you that I 've managed to get servermon's
+code coverage finally above 95%. 96.37 to be exact. This means only ~100
+relevant LOC are not being actively tested right now. I am gonna work a bit more
+on this but I wanted to share this with anyone who's interested. In case you
+want to see it in action, we 've now got coveralls.io integration, so here you
+are:&lt;/p&gt;
+&lt;p&gt;&lt;a
+href="https://coveralls.io/github/servermon/servermon"&gt;https://coveralls.io/github/servermon/servermon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;That is an increase from last year's 80%.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://blog.uname.gr/servermon-code-coverage-80.html"&gt;80% code coverage&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandros Kosiaris</dc:creator><pubDate>Fri, 11 Sep 2015 14:39:08 +0000</pubDate><guid>tag:blog.uname.gr,2015-09-11:servermon-code-coverage-95.html</guid><category>servermon</category><category>monitoring</category><category>puppet</category><category>django</category></item><item><title>collectd_transmission</title><link>http://blog.uname.gr/collectd_transmission.html</link><description>&lt;p&gt;collectd_transmission just got version 2.3 released today. This is a small
 project I 've create to integrate the collectd monitoring server and
 transmission. It allows to monitor the state of a transmission server and get
 some interesting info on the usage of it. I am quite exhited about it today
