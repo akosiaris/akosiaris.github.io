@@ -1,4 +1,9 @@
 akosiaris.github.io
 ===================
 
-akosiaris user page
+akosiaris blog. Posted on blog.uname.gr
+
+How to build
+============
+
+make github should be enough
