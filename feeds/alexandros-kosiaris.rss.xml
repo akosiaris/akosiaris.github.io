@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAB: Just Another Blog</title><link>http://blog.uname.gr/</link><description></description><atom:link href="http://blog.uname.gr/feeds/alexandros-kosiaris.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 11 Sep 2015 14:39:08 +0000</lastBuildDate><item><title>Servermon code coverage &gt; 95%</title><link>http://blog.uname.gr/servermon-code-coverage-95.html</link><description>&lt;p&gt;Hello everyone, happy to shared with you that I 've managed to get servermon's
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAB: Just Another Blog</title><link>http://blog.uname.gr/</link><description></description><atom:link href="http://blog.uname.gr/feeds/alexandros-kosiaris.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 17 Sep 2015 14:39:08 +0000</lastBuildDate><item><title>Servermon flake8 compliant</title><link>http://blog.uname.gr/servermon-flake8-compliant.html</link><description>&lt;p&gt;Servermon has almost full flake8 compliance. In a pretty big commit:
+&lt;a href="https://github.com/servermon/servermon/commit/b4dfd58a85ab52aaf57a2c360a94ea190065459f"&gt;b4dfd58&lt;/a&gt;
+we 've reached almost full compliance. The one error ignored is E501
+(line too long) which did not seem worthy to fight for. So, now
+patches/PRs to servermon need to keep code style, pass the tests and
+not make code coverage significantly worse to be accepted&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandros Kosiaris</dc:creator><pubDate>Thu, 17 Sep 2015 14:39:08 +0000</pubDate><guid>tag:blog.uname.gr,2015-09-17:servermon-flake8-compliant.html</guid><category>servermon</category><category>monitoring</category><category>puppet</category><category>django</category></item><item><title>Servermon code coverage &gt; 95%</title><link>http://blog.uname.gr/servermon-code-coverage-95.html</link><description>&lt;p&gt;Hello everyone, happy to shared with you that I 've managed to get servermon's
 code coverage finally above 95%. 96.37 to be exact. This means only ~100
 relevant LOC are not being actively tested right now. I am gonna work a bit more
 on this but I wanted to share this with anyone who's interested. In case you

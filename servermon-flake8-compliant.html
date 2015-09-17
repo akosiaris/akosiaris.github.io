@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="monitoring" />
+        <meta name="author" content="Alexandros Kosiaris" />
+        <meta name="keywords" content="servermon,monitoring,puppet,django" />
+        <meta name="description" content="Servermon has almost full flake8 compliance. In a pretty big commit: b4dfd58 we &#39;ve reached almost full compliance. The one error ignored is E501 (line too long) which did not seem worthy to fight for. So, now patches/PRs to servermon need to keep code style, pass the tests and ..." />
 
-    <title>monitoring - JAB: Just Another Blog</title>
+    <title>Servermon flake8 compliant - JAB: Just Another Blog</title>
 
     <link rel="stylesheet" href="http://blog.uname.gr/theme/css/bootstrap.min.css" type="text/css"/>
     <link href="http://blog.uname.gr/theme/css/font-awesome.min.css" rel="stylesheet">
@@ -133,7 +135,7 @@
                             <span class="badge pull-right categorybadge">1</span>
                         </a>
                     </li>
-                    <li >
+                    <li class="active">
                         <a href="http://blog.uname.gr/category/servermon.html">
                             <i class="fa fa-folder-open padding-small"></i>
                             servermon
@@ -155,41 +157,54 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-<div class="row">
-    <div class="col-lg-9">
-        <header class="page-header">
-            <h1>Articles featuring monitoring</h1>
-        </header>
+<section id="content">
+    <article>
+        <div class="row">
+            <div class="col-lg-9">
+                <header class="page-header">
+                    <h1>
+                        <a href="http://blog.uname.gr/servermon-flake8-compliant.html"
+                           rel="bookmark"
+                           title="Permalink to Servermon flake8 compliant">
+                            Servermon flake8 compliant
+                        </a>
+                        <small>
+<div class="post-info">
+    <div class="publish-info-block">
+        <small>
+            <span class="published">
+                <i class="fa fa-calendar padding-small"></i><time datetime="2015-09-17T14:39:08"> Thu 17 September 2015</time>
+            </span>
+            <span class="category">
+                <i class="fa fa-folder-open padding-small"></i><a href="http://blog.uname.gr/category/servermon.html">servermon</a>
+            </span>
+            <span class="tags">
+                <i class="fa fa-tags padding-small"></i>
+                <a href="http://blog.uname.gr/tag/servermon.html">servermon</a> /                 <a href="http://blog.uname.gr/tag/monitoring.html">monitoring</a> /                 <a href="http://blog.uname.gr/tag/puppet.html">puppet</a> /                 <a href="http://blog.uname.gr/tag/django.html">django</a>            </span>
+        </small>
     </div>
-</div>
-<div class="row">
-    <div class="col-lg-9">
-            <article>
-                <h4>
-                    <time datetime="2015-09-17T14:39:08"> Thu 17 September 2015</time>
-                    <a href="http://blog.uname.gr/servermon-flake8-compliant.html">Servermon flake8 compliant</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2015-09-11T14:39:08"> Fri 11 September 2015</time>
-                    <a href="http://blog.uname.gr/servermon-code-coverage-95.html">Servermon code coverage > 95%</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2015-09-04T14:39:08"> Fri 04 September 2015</time>
-                    <a href="http://blog.uname.gr/collectd_transmission.html">collectd_transmission</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2014-10-22T14:39:08"> Wed 22 October 2014</time>
-                    <a href="http://blog.uname.gr/servermon-code-coverage-80.html">Servermon code coverage > 80%</a>
-                </h4>
-            </article>
-    </div>
-</div>
+</div><!-- /.post-info -->                        </small>
+                    </h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="entry-content">
+                    <p>Servermon has almost full flake8 compliance. In a pretty big commit:
+<a href="https://github.com/servermon/servermon/commit/b4dfd58a85ab52aaf57a2c360a94ea190065459f">b4dfd58</a>
+we 've reached almost full compliance. The one error ignored is E501
+(line too long) which did not seem worthy to fight for. So, now
+patches/PRs to servermon need to keep code style, pass the tests and
+not make code coverage significantly worse to be accepted</p>
+                </div>
+                <footer class="text-right">
+                    <p>- Alexandros Kosiaris</p>
+                </footer>
+            </div>
+        </div>
+    </article>
+</section>
 <footer>
     <hr>
     <div class="row">
@@ -211,24 +226,6 @@
     <script src="http://blog.uname.gr/theme/js/bootstrap.min.js"></script>
     <!-- twitchy Script -->
     <script src="http://blog.uname.gr/theme/js/pelican_twitchy.min.js"></script>
-<script>
-    function FadeInOnScroll(ObjectList){
-        ObjectList.each(function(i) {
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-            if( bottom_of_window > bottom_of_object ){
-                $(this).fadeTo(750,1);
-            }
-        });
-    }
-
-    articles = $("article").fadeTo(0, 0.05);
-    FadeInOnScroll(articles)
-
-    $(window).scroll(function() {
-        FadeInOnScroll(articles)
-    });
-</script>
 </body>
 </html>
