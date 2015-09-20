@@ -38,4 +38,5 @@ EXTRA_PATH_METADATA = {
 LOCALE='C'
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+# It get's overriden anyway by publishconf.py
+RELATIVE_URLS = True
